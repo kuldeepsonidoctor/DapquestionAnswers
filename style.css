@@ -1,0 +1,70 @@
+*{
+
+background-color: black;
+color: white;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 250px;
+}
+
+.tsp
+{
+    position: absolute;
+    margin-top: 105px;
+    justify-content: center;
+
+}
+
+.timeDiv
+{
+    border: solid 0.5px blue;
+ 
+    width: 80%;
+}
+
+#speed-val
+{
+    border: 1px solid red;
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    font-size: 0.75in;
+    padding: 20px;
+}
+
+#distance
+{
+    border: 1px solid red;
+    width: 40%;
+}
+
+#btns
+{
+    display: flex;
+}
+
+#btn-start
+{
+    padding: 15px;
+}
+
+#btn-stop
+{
+    padding: 10px;
+}
+
+#inp-speed
+{
+    padding: 20px;
+    width: auto;
+}
+
+#inp-time
+{
+    padding: 20px;
+    width: auto;
+}
